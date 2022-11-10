@@ -14,7 +14,7 @@ export default function Anuncio() {
 const styles = StyleSheet.create({
   container: {},
   imgAnuncio: {
-    height: 175,
+    height: 165,
     width: '100%',
     backgroundColor: '#1b1b1b'
   }
