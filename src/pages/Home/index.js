@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { StyleSheet, TouchableOpacity, View, Image } from 'react-native'
+import { StyleSheet, TouchableOpacity, View, Image, Text } from 'react-native'
 import { Audio } from 'expo-av'
 
 import Header from '../../components/Header'
@@ -477,108 +477,143 @@ export default function App() {
       <Header />
       <TouchableOpacity style={styles.button} onPress={brasil}>
         <Image source={Brasil} />
+        <Text style={styles.title}>Brasil</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={forteAbraco}>
         <Image source={ForteAbraço} />
+        <Text style={styles.title}>Forte abraço</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={pistola}>
         <Image source={Pistola} />
+        <Text style={styles.title}>Tiro</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={beijoca}>
         <Image source={Beijo} />
+        <Text style={styles.title}>Beijoca</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={bomba}>
         <Image source={Bomba} />
+        <Text style={styles.title}>Bomba</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={descarga}>
         <Image source={Descarga} />
+        <Text style={styles.title}>Descarga</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={tambor}>
         <Image source={Tambor} />
+        <Text style={styles.title}>Tambor</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={corteRapido}>
         <Image source={Faca} />
+        <Text style={styles.title}>Corte rápido</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={love}>
         <Image source={Love} />
+        <Text style={styles.title}>Love</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={gato}>
         <Image source={Gato} />
+        <Text style={styles.title}>Miau</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={aplausos}>
         <Image source={Aplausos} />
+        <Text style={styles.title}>Aplausos</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={agoraEntendi}>
         <Image source={Bender} />
+        <Text style={styles.title}>Agora entendi</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={demais}>
         <Image source={QueDemais} />
+        <Text style={styles.title}>Que demais</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={delicia}>
         <Image source={QueDelicia} />
+        <Text style={styles.title}>Ai que delicia</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={engasguei}>
         <Image source={engasgueiComigo} />
+        <Text style={styles.title}>Engasguei</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={happy}>
         <Image source={Happy} />
+        <Text style={styles.title}>Parabéns</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={zacarias}>
         <Image source={Zacarias} />
+        <Text style={styles.title}>Zacarias</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={baby}>
         <Image source={Baby} />
+        <Text style={styles.title}>Risos bebê</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={caixaRegistradora}>
         <Image source={CaixaRegistradora} />
+        <Text style={styles.title}>Registradora</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={paraJoaoKleber}>
         <Image source={ParaJoaoKleber} />
+        <Text style={styles.title}>Para para para</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={garrafa}>
         <Image source={Garrafa} />
+        <Text style={styles.title}>Garrafa</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={grilo}>
         <Image source={Grilo} />
+        <Text style={styles.title}>Grilo</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={ai}>
         <Image source={Ai} />
+        <Text style={styles.title}>Aaaaaaí</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={flamengo}>
         <Image source={Flamengo} />
+        <Text style={styles.title}>Flamengooo</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={vasco}>
         <Image source={Vasco} />
+        <Text style={styles.title}>Vascooo</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={fluminense}>
         <Image source={Fluminense} />
+        <Text style={styles.title}>Flumenenseee</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={botafogo}>
         <Image source={Botafogo} />
+        <Text style={styles.title}>Botafogooo</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={santos}>
         <Image source={Santos} />
+        <Text style={styles.title}>Santooos</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={saoPaulo}>
         <Image source={SaoPaulo} />
+        <Text style={styles.title}>São Paulooo</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={palmeiras}>
         <Image source={Palmeiras} />
+        <Text style={styles.title}>Palmeiraaas</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={conrinthians}>
         <Image source={Corinthians} />
+        <Text style={styles.title}>Corinthiaans</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={gremio}>
         <Image source={Gremio} />
+        <Text style={styles.title}>Gremiooo</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={internacional}>
         <Image source={Internacional} />
+        <Text style={styles.title}>Inteeer</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={galo}>
         <Image source={Galo} />
+        <Text style={styles.title}>Atléticooo</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={cruzeiro}>
         <Image source={Cruzeiro} />
+        <Text style={styles.title}>Cruzeirooo</Text>
       </TouchableOpacity>
     </View>
   )
@@ -595,12 +630,18 @@ const styles = StyleSheet.create({
   },
 
   button: {
-    height: 76,
+    height: 70,
     width: 76,
     borderRadius: 5,
-    marginTop: 3,
+    marginVertical: 15,
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: '#ffff'
+  },
+
+  title: {
+    fontSize: 10,
+    color: '#fff',
+    marginTop: 7
   }
 })
