@@ -4,7 +4,7 @@ import Anuncio from './src/pages/Anuncio'
 export default function App() {
   return (
     <>
-      <Anuncio />
+      {/* <Anuncio /> */}
       <Home />
     </>
   )

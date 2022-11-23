@@ -1,16 +1,17 @@
 import React from 'react'
-import { View, StyleSheet } from 'react-native'
+import { View, StyleSheet, Text, StatusBar } from 'react-native'
 
 export default function Header() {
   return (
     <View style={styles.container}>
-      <></>
+      <Text> </Text>
     </View>
   )
 }
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#fff'
+    backgroundColor: '#1b1b1b',
+    width: '100%'
   }
 })

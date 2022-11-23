@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { StyleSheet, TouchableOpacity, View, Image, Text } from 'react-native'
 import { Audio } from 'expo-av'
 
@@ -44,7 +44,7 @@ import Ai from './../../../assets/images/ai.png'
 export default function App() {
   const [sound, setSound] = React.useState()
 
-  //=================================== Funçoes (Aqui atribuimos os sons de cada botão) =========================
+  //=================================== Funçoes (sons de cada botão) =========================
   async function beijoca() {
     console.log('Loading Sound')
     const { sound } = await Audio.Sound.createAsync(
@@ -569,51 +569,51 @@ export default function App() {
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={flamengo}>
         <Image source={Flamengo} />
-        <Text style={styles.title}>Flamengooo</Text>
+        <Text style={styles.title}>Flamengo</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={vasco}>
         <Image source={Vasco} />
-        <Text style={styles.title}>Vascooo</Text>
+        <Text style={styles.title}>Vasco</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={fluminense}>
         <Image source={Fluminense} />
-        <Text style={styles.title}>Flumenenseee</Text>
+        <Text style={styles.title}>Flumenense</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={botafogo}>
         <Image source={Botafogo} />
-        <Text style={styles.title}>Botafogooo</Text>
+        <Text style={styles.title}>Botafogo</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={santos}>
         <Image source={Santos} />
-        <Text style={styles.title}>Santooos</Text>
+        <Text style={styles.title}>Santos</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={saoPaulo}>
         <Image source={SaoPaulo} />
-        <Text style={styles.title}>São Paulooo</Text>
+        <Text style={styles.title}>São Paulo</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={palmeiras}>
         <Image source={Palmeiras} />
-        <Text style={styles.title}>Palmeiraaas</Text>
+        <Text style={styles.title}>Palmeiras</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={conrinthians}>
         <Image source={Corinthians} />
-        <Text style={styles.title}>Corinthiaans</Text>
+        <Text style={styles.title}>Corinthians</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={gremio}>
         <Image source={Gremio} />
-        <Text style={styles.title}>Gremiooo</Text>
+        <Text style={styles.title}>Gremio</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={internacional}>
         <Image source={Internacional} />
-        <Text style={styles.title}>Inteeer</Text>
+        <Text style={styles.title}>Inter</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={galo}>
         <Image source={Galo} />
-        <Text style={styles.title}>Atléticooo</Text>
+        <Text style={styles.title}>Atlético</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={cruzeiro}>
         <Image source={Cruzeiro} />
-        <Text style={styles.title}>Cruzeirooo</Text>
+        <Text style={styles.title}>Cruzeiro</Text>
       </TouchableOpacity>
     </View>
   )
@@ -630,7 +630,7 @@ const styles = StyleSheet.create({
   },
 
   button: {
-    height: 70,
+    height: 76,
     width: 76,
     borderRadius: 5,
     marginVertical: 15,
@@ -642,6 +642,6 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 10,
     color: '#fff',
-    marginTop: 7
+    marginTop: 12
   }
 })

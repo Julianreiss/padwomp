@@ -5,14 +5,13 @@ import WompCast from './../../../assets/images/WompCast.png'
 
 export default function Anuncio() {
   return (
-    <View style={styles.container}>
+    <View>
       <Image style={styles.imgAnuncio} source={WompCast} />
     </View>
   )
 }
 
 const styles = StyleSheet.create({
-  container: {},
   imgAnuncio: {
     height: 120,
     width: '100%',
