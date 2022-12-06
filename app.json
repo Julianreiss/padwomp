@@ -25,7 +25,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.pad_womp_Plus"
+      "package": "com.pad_womp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
