@@ -626,22 +626,20 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     flexWrap: 'wrap',
-    backgroundColor: '#1b1b1b'
+    backgroundColor: '#121212'
   },
 
   button: {
     height: 76,
     width: 76,
     borderRadius: 5,
-    marginVertical: 15,
+    marginBottom: 17,
     alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: '#ffff'
+    justifyContent: 'center'
   },
 
   title: {
     fontSize: 10,
-    color: '#fff',
-    marginTop: 12
+    color: '#fff'
   }
 })

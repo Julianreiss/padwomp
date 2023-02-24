@@ -1,10 +1,10 @@
 import Home from './src/pages/Home'
-import Anuncio from './src/pages/Anuncio'
+import Anuncios from './src/pages/Anuncios'
 
 export default function App() {
   return (
     <>
-      {/* <Anuncio /> */}
+      <Anuncios />
       <Home />
     </>
   )
