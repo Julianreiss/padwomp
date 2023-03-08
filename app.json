@@ -2,14 +2,14 @@
   "expo": {
     "name": "padwomp",
     "slug": "padwomp",
-    "version": "3.0.0",
+    "version": "3.0.4",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#fff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -23,11 +23,11 @@
     "android": {
         "defaultConfig": {
             "versionCode": 3,
-            "versionName": "3.1.1"
+            "versionName": "3.1.4"
           },
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#fff"
       },
       "package": "com.pad_womp",
       "versionCode": 3

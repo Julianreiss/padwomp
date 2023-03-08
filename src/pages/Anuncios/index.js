@@ -40,7 +40,7 @@ const Item = ({ title, image }) => (
   <View style={styles.item}>
     <Text style={styles.title}>{title}</Text>
     <Image
-      style={{ height: 90, width: 375, borderRadius: 5 }}
+      style={{ height: 85, width: 380, borderRadius: 5 }}
       source={{ uri: `${image}` }}
     />
   </View>
@@ -67,12 +67,13 @@ const App = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    marginTop: StatusBar.currentHeight || 0,
-    backgroundColor: '#1c1c1c',
-    maxHeight: 110
+    // marginTop: StatusBar.currentHeight || 0,
+    backgroundColor: '#121212',
+    maxHeight: 120
   },
   item: {
-    marginHorizontal: 5
+    marginHorizontal: 5,
+    marginTop: 10
   }
 })
 
